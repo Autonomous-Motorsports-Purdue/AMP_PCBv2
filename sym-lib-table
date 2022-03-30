@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "AMP")(type "KiCad")(uri "${KIPRJMOD}/libs/custom/AMP.kicad_sym")(options "")(descr ""))
+  (lib (name "teensy")(type "Legacy")(uri "${KIPRJMOD}/libs/teensy_library/teensy.lib")(options "")(descr ""))
+)
