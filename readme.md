@@ -18,3 +18,17 @@ This PCB attempts to refine the v1 PCB to strip away extraneous components and a
 
 - E-Brake
 - Remote control
+
+## Notes (to check)
+
+- Throttle differential amplifier
+  - Check if gain can be larger/smaller than 3.63 (for resistor selection)
+  - Low pass filter for PWM->analog signal
+- Motor controller
+  - Add breakout pins when PCB ordered/tested
+- FTDI breakout (check if needed for Teensy)
+- Feather
+  - Remote control pins
+- Connectors
+  - Test point connectors
+  - Signal out connectors (talk to electrical)
