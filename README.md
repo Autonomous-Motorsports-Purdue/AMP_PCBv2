@@ -14,6 +14,10 @@ This PCB attempts to refine the v1 PCB to strip away extraneous components and a
 - digital brake control (5 volt logic level //FIXME: IS THIS CORRECT?, CHECK IF THIS IS LEVEL SHIFTED ON CURRENT BOARD)
   - ![Brake Control Signals](docs/img/Brake_Control_Signals.png)
 
+## Useful links
+
+[RC Low-pass Filter Design for PWM](http://sim.okawa-denshi.jp/en/PWMtool.php)
+
 ## Extensions
 
 - E-Brake
