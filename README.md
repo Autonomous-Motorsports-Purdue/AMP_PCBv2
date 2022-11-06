@@ -38,4 +38,5 @@ This PCB attempts to refine the v1 PCB to strip away extraneous components and a
   - Signal out connectors (talk to electrical)
 
   ## Part Numbers
-  - AMPSEAL (main motor controller connector) crimps: 770520-1
+  - AMPSEAL (main motor controller connector) 35-pin connector: 776164-1
+  - AMPSEAL crimps: 770520-1
