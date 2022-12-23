@@ -7996,7 +7996,7 @@
     (property "Value" "OLED Breakout" (id 1) (at 395.6812 57.5822 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (id 2) (at 394.97 54.61 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" (id 2) (at 394.97 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 394.97 54.61 0)
@@ -10683,7 +10683,7 @@
       (reference "J4") (unit 1) (value "STEERING") (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical")
     )
     (path "/6e096d07-50b1-4d38-a410-59f9bd13afff"
-      (reference "J5") (unit 1) (value "OLED Breakout") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+      (reference "J5") (unit 1) (value "OLED Breakout") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
     (path "/ff78fa55-4dad-4168-9c36-443a87175a9c"
       (reference "J6") (unit 1) (value "EBRAKE_BREAKOUT") (footprint "AMP:AMP_Brake_Controller_Breakout")
