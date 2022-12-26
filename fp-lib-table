@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "AMP")(type "KiCad")(uri "${KIPRJMOD}/footprints/AMP.pretty")(options "")(descr ""))
   (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/footprints/teensy.pretty")(options "")(descr ""))
+  (lib (name "RF_Module_OTHER")(type "KiCad")(uri "${KIPRJMOD}/RF_Module_OTHER.pretty")(options "")(descr ""))
 )
