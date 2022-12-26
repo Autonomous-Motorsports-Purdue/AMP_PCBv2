@@ -3,4 +3,5 @@
   (lib (name "teensy")(type "Legacy")(uri "${KIPRJMOD}/libs/teensy_library/teensy.lib")(options "")(descr ""))
   (lib (name "74xx_OTHER")(type "KiCad")(uri "${KIPRJMOD}/libs/74xx_OTHER.kicad_sym")(options "")(descr ""))
   (lib (name "Interface_USB_OTHER")(type "KiCad")(uri "${KIPRJMOD}/libs/Interface_USB_OTHER.kicad_sym")(options "")(descr ""))
+  (lib (name "RF_Module_OTHER")(type "KiCad")(uri "${KIPRJMOD}/libs/RF_Module_OTHER.kicad_sym")(options "")(descr ""))
 )
