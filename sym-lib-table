@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name "AMP")(type "KiCad")(uri "${KIPRJMOD}/libs/custom/AMP.kicad_sym")(options "")(descr ""))
+  (lib (name "AMP")(type "KiCad")(uri "${KIPRJMOD}/libs/AMP.kicad_sym")(options "")(descr ""))
   (lib (name "teensy")(type "Legacy")(uri "${KIPRJMOD}/libs/teensy_library/teensy.lib")(options "")(descr ""))
   (lib (name "74xx_OTHER")(type "KiCad")(uri "${KIPRJMOD}/libs/74xx_OTHER.kicad_sym")(options "")(descr ""))
   (lib (name "Interface_USB_OTHER")(type "KiCad")(uri "${KIPRJMOD}/libs/Interface_USB_OTHER.kicad_sym")(options "")(descr ""))
