@@ -330,7 +330,7 @@
       (net 100 "/USB_D-") (pinfunction "USBD+") (pintype "bidirectional") (tstamp 8e8f46b1-8bba-4964-86e6-9ef911e771d7))
     (pad "13" smd rect locked (at 0 0) (size 1.6 2.5) (layers "F.Cu" "F.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp e3a938da-efe5-4e61-b1b9-59edfa112823))
-    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-12-1EP_3x3mm_P0.5mm_EP1.6x2.5mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-12-1EP_3x3mm_P0.5mm_EP2.05x2.86mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -700,6 +700,11 @@
       (net 9 "+12V") (pinfunction "Pin_25") (pintype "passive") (tstamp 7b214980-945d-4957-990d-75bf0615ed23))
     (pad "26" thru_hole circle (at 2.54 2.54 90) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 9 "+12V") (pinfunction "Pin_26") (pintype "passive") (tstamp 18a58e13-a63a-43fb-be9f-44be84409a9c))
+    (model "${KIPRJMOD}/libs/3Dmodels/Brake_Controller.step"
+      (offset (xyz 18.5 -18 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
@@ -1068,7 +1073,7 @@
     (property "Sheetname" "")
     (path "/e0adbe8f-f0de-46a3-ad7f-237c164860b9")
     (attr through_hole)
-    (fp_text reference "U10" (at 21.336 -2.54 unlocked) (layer "F.SilkS")
+    (fp_text reference "U10" (at 21.336 -2.54 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dbdb8983-b6b2-4345-a13e-d253930d01b1)
     )
@@ -1076,7 +1081,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 80bd354c-03d5-4af3-9736-9d2c9e08e90c)
     )
-    (fp_rect (start -2.54 -1.905) (end 22.86 27.305) (layer "F.SilkS") (width 0.12) (fill none) (tstamp a40d84db-ca81-4ea8-90b2-0d5f824608a0))
+    (fp_rect (start -2.14 -1.205) (end 23.16 28.005) (layer "F.SilkS") (width 0.12) (fill none) (tstamp a40d84db-ca81-4ea8-90b2-0d5f824608a0))
     (pad "1" thru_hole circle (at 0 25.4 90) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 4 "+3V3") (pinfunction "VIN") (pintype "power_in") (tstamp 4197c589-f423-42aa-a89e-2e416aba5626))
     (pad "2" thru_hole circle (at 2.54 25.4) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
@@ -1105,6 +1110,11 @@
       (net 126 "unconnected-(U10-Pad13)") (pinfunction "G4") (pintype "input+no_connect") (tstamp a50d4081-5c3a-4b88-82b9-4e97c0733a18))
     (pad "14" thru_hole circle (at 10.16 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 127 "unconnected-(U10-Pad14)") (pinfunction "G5") (pintype "input") (tstamp 8d29549b-c4a2-423b-b99e-a3210db8d633))
+    (model "${KIPRJMOD}/libs/3Dmodels/Adafruit_RFM9x.step"
+      (offset (xyz -2.5 -28 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" (layer "F.Cu")
@@ -1404,10 +1414,10 @@
       (net 34 "/OUT_EBRAKE2") (pinfunction "Pin_1") (pintype "passive") (tstamp 89eebdb0-7b5b-4776-8ae2-1e45b31c7852))
     (pad "2" thru_hole oval (at 0 5.5) (size 2.7 3.3) (drill 1.4) (layers *.Cu *.Mask)
       (net 45 "/OUT_EBRAKE1") (pinfunction "Pin_2") (pintype "passive") (tstamp 6e53cce4-a3d8-44b8-bde2-b1b1aa8b0ca4))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/libs/3Dmodels/Molex_Mini-Fit-Jr_5566_2pos.stp"
+      (offset (xyz 0 -2.5 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -2066,10 +2076,10 @@
       (net 2 "GND") (pinfunction "Pin_7") (pintype "passive") (tstamp 77645858-798d-46d1-a850-28ba63f9a571))
     (pad "8" thru_hole oval (at 12.6 5.5 180) (size 2.7 3.3) (drill 1.4) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "Pin_8") (pintype "passive") (tstamp a1db0411-a715-4cf5-9efa-a8c5a13bc87c))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/libs/3Dmodels/Molex_Mini-Fit-Jr_5566_8pos.stp"
+      (offset (xyz 6 -2.5 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -3874,10 +3884,10 @@
       (net 2 "GND") (pinfunction "Pin_1") (pintype "passive") (tstamp 54660dda-ad00-4ae9-9901-d919d1f1c496))
     (pad "2" thru_hole oval (at 0 5.5) (size 2.7 3.3) (drill 1.4) (layers *.Cu *.Mask)
       (net 9 "+12V") (pinfunction "Pin_2") (pintype "passive") (tstamp b444d700-12c5-4980-b389-b35c0077cb66))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/libs/3Dmodels/Molex_Mini-Fit-Jr_5566_2pos.stp"
+      (offset (xyz 0 -2.5 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -5115,10 +5125,10 @@
       (net 47 "unconnected-(J3-Pad7)") (pinfunction "Pin_7") (pintype "passive+no_connect") (tstamp 826af229-9c34-45e0-b8d7-c06819deaece))
     (pad "8" thru_hole oval (at 12.6 5.5 180) (size 2.7 3.3) (drill 1.4) (layers *.Cu *.Mask)
       (net 48 "unconnected-(J3-Pad8)") (pinfunction "Pin_8") (pintype "passive+no_connect") (tstamp ea76274a-d9be-4de8-8238-3f5acc7fc2ae))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/libs/3Dmodels/Molex_Mini-Fit-Jr_5566_8pos.stp"
+      (offset (xyz 6 -2.5 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -5536,8 +5546,8 @@
       (net 2 "GND") (pinfunction "Shield") (pintype "passive") (tstamp 19c548c9-71ba-4a51-b913-5199e96e42c1))
     (pad "5" thru_hole circle (at -7.27 2.71 180) (size 3 3) (drill 2.3) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "Shield") (pintype "passive") (tstamp 84653c29-b40e-4277-a234-b20ccc8ef702))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_B_TE_5787834_Vertical.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/libs/3Dmodels/CUI_DEVICES_UJ2-BV-1-TH.step"
+      (offset (xyz -1 -6.5 15.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -6703,6 +6713,9 @@
   )
   (gr_text "REV" (at 172.725 95.504) (layer "F.SilkS") (tstamp 9241faa1-c1aa-4592-add2-762b84ace9cc)
     (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "LoRa Module" (at 122.428 71.12) (layer "F.SilkS") (tstamp 92fe93c0-ff9a-486a-b994-006775e74d67)
+    (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_text "12V" (at 121.666 55.88) (layer "F.SilkS") (tstamp 96f1f907-b2b5-45e9-9bfd-587b178c9fe9)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
