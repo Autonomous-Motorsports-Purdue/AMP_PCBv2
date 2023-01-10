@@ -2,41 +2,41 @@
 
 This PCB attempts to refine the v1 PCB to strip away extraneous components and achieve the best minimal set of components needed for drive, steering, and braking control
 
-## Minimal Feature Set
+## Features
 
-- 0-12 volt analog throttle signal
-- digital drive mode control (12 volt logic level)
-  - Foot switch (FS1)
-  - Forward (FWD)
-  - Reverse (REV)
-- 12 volt frequency modulated PWM steering signal
-  - //TODO: ADD THE FREQUENCY BOUNDS OF FULL LEFT AND FULL RIGHT
-- digital brake control (5 volt logic level //FIXME: IS THIS CORRECT?, CHECK IF THIS IS LEVEL SHIFTED ON CURRENT BOARD)
-  - ![Brake Control Signals](docs/img/Brake_Control_Signals.png)
+| Name                    | Current Status         | Notes |
+|-------------------------|------------------------|-------|
+| Foot switch             | Tested working off-PCB | Master enable for motor controller
+| Forward throttle        | Completed              | -
+| Reverse throttle        | Tested working off-PCB | -
+| Motor brake control     | Untested               | Primary braking system if working
+| Emergency brake control | Tested working off-PCB | Mechanical brake actuator
+| Steering                | Untested               | -
+| LoRa remote control     | Untested               | -
+| Watchdog timer          | Untested               | -
+| Hardware serial port    | Untested               | -
 
-## Useful links
+---
 
-[RC Low-pass Filter Design for PWM](http://sim.okawa-denshi.jp/en/PWMtool.php)
+## Technical Information
+- [Teensy 4.0 front pinout](docs/img/Teensy_40_Front_Pinout.png)
+- [Teensy 4.0 rear pinout](docs/img/Teensy_40_Rear_Pinout.png)
+- [Emergency brake controller truth table](docs/img/Brake_Control_Signals.png)
 
-## Extensions
+### Useful links
+- [RC Low-pass Filter Design for PWM](http://sim.okawa-denshi.jp/en/PWMtool.php)
+- [Software setup for Teensy with Arduino](https://www.pjrc.com/teensy/tutorial.html)
 
-- E-Brake
-- Remote control
+---
 
-## Notes (to check)
+## Part Numbers
+| Part Number | Description |
+|-------------|-------------|
+| [776164-1](https://www.digikey.com/en/products/detail/te-connectivity-deutsch-ict-connectors/776164-1/2183727) | AMPSEAL (main motor controller connector) 35-pin connector
+| [770520-1](https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/770520-1/744981) | AMPSEAL crimps
 
-- Throttle differential amplifier
-  - Check if gain can be larger/smaller than 3.63 (for resistor selection)
-  - Low pass filter for PWM->analog signal
-- Motor controller
-  - Add breakout pins when PCB ordered/tested
-- FTDI breakout (check if needed for Teensy)
-- Feather
-  - Remote control pins
-- Connectors
-  - Test point connectors
-  - Signal out connectors (talk to electrical)
+---
 
-  ## Part Numbers
-  - AMPSEAL (main motor controller connector) 35-pin connector: 776164-1
-  - AMPSEAL crimps: 770520-1
+## Miscellaneous notes (to check)
+
+- Create documentation for connectors (especially motor controller connector)
