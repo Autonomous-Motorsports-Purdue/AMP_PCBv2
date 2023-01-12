@@ -3895,13 +3895,13 @@
       )
     )
     (symbol "Interface_USB_OTHER:FT234XD" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (id 0) (at -15.24 22.86 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Reference" "U2" (id 0) (at 4.5594 25.2898 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "FT234XD" (id 1) (at 12.7 22.86 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "FT234XD" (id 1) (at 4.5594 22.7529 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "" (id 2) (at -27.94 22.86 0)
+      (property "Footprint" "Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.5mm_EP1.6x2.5mm" (id 2) (at -27.94 22.86 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (id 3) (at -27.94 22.86 0)
@@ -3914,7 +3914,7 @@
         )
       )
       (symbol "FT234XD_1_1"
-        (pin bidirectional line (at -20.32 10.16 0) (length 3.81)
+        (pin bidirectional line (at -20.32 7.62 0) (length 3.81)
           (name "USBD-" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -3926,7 +3926,7 @@
           (name "CTS" (effects (font (size 1.27 1.27))))
           (number "11" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at -20.32 7.62 0) (length 3.81)
+        (pin bidirectional line (at -20.32 10.16 0) (length 3.81)
           (name "USBD+" (effects (font (size 1.27 1.27))))
           (number "12" (effects (font (size 1.27 1.27))))
         )
@@ -7598,7 +7598,7 @@
   (symbol (lib_id "power:+3V3") (at 396.24 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1a40d3a0-f842-45bf-b552-0e18b7a66cde)
-    (property "Reference" "#PWR?" (id 0) (at 396.24 198.12 0)
+    (property "Reference" "#PWR0109" (id 0) (at 396.24 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 396.24 190.7342 0))
@@ -9116,7 +9116,7 @@
   (symbol (lib_id "power:+3V3") (at 317.5 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8a2cc60a-ae9d-4eed-bea1-95b3c13b6aaf)
-    (property "Reference" "#PWR?" (id 0) (at 317.5 177.8 0)
+    (property "Reference" "#PWR0111" (id 0) (at 317.5 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 317.5 170.4142 0))
@@ -11186,8 +11186,14 @@
     (path "/d45581a9-bb29-4a2a-8d9e-999b79aeae2e"
       (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
+    (path "/1a40d3a0-f842-45bf-b552-0e18b7a66cde"
+      (reference "#PWR0109") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/941cc1ef-9c56-488d-859c-ab91af0cdfc0"
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8a2cc60a-ae9d-4eed-bea1-95b3c13b6aaf"
+      (reference "#PWR0111") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/180d1c7b-1ce2-4e84-81bf-75842d06dc07"
       (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
@@ -11392,12 +11398,6 @@
     )
     (path "/7c2fd769-1c9d-4fe1-82d0-02e697e8da61"
       (reference "#PWR0181") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/1a40d3a0-f842-45bf-b552-0e18b7a66cde"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/8a2cc60a-ae9d-4eed-bea1-95b3c13b6aaf"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/16a1e66b-dff9-408a-8eac-84b7497b6789"
       (reference "C1") (unit 1) (value "47pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
