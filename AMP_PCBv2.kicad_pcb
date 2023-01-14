@@ -6842,7 +6842,7 @@
   (gr_text "SCL" (at 123.698 129.54) (layer "F.SilkS") (tstamp b3de1ec7-8327-4926-9f91-9112f1bec76d)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (gr_text "| FS1\n| FWD\n| REV\n| THROTTLE\n| FB\n| EBRAKE1\n| EBRAKE2\n| STEERING" (at 88.9 64.008) (layer "F.SilkS") (tstamp bffd66c8-53d1-4187-9c51-76fd41c9ca8a)
+  (gr_text "| STEERING\n| EBRAKE2\n| EBRAKE1\n| FB\n| THROTTLE\n| REV\n| FWD\n| FS1" (at 88.9 64.008) (layer "F.SilkS") (tstamp bffd66c8-53d1-4187-9c51-76fd41c9ca8a)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "EBRAKE1" (at 106.68 56.647) (layer "F.SilkS") (tstamp d5e6f76f-718d-4183-a251-b79e00a3f529)
