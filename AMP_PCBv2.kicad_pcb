@@ -7,7 +7,7 @@
   (paper "USLetter")
   (title_block
     (title "AMP PCBv2")
-    (date "2023-01-11")
+    (date "2023-01-13")
     (rev "B")
     (company "Autonomous Motorsports Purdue")
   )
@@ -6758,7 +6758,7 @@
   (gr_line (start 87.376 143.256) (end 87.376 51.816) (layer "Edge.Cuts") (width 0.1) (tstamp 77c0b0fb-3177-4bdf-b127-6d17ce11de40))
   (gr_line (start 187.452 51.816) (end 187.452 143.256) (layer "Edge.Cuts") (width 0.1) (tstamp a76710ad-3ce1-49f6-95ec-ee6708c7e6db))
   (gr_arc (start 91.694 147.574) (mid 88.640713 146.309287) (end 87.376 143.256) (layer "Edge.Cuts") (width 0.1) (tstamp cd2f43c0-22fd-4644-b4a2-ee438792774d))
-  (gr_text "AMP PCBv2\nRevision B\n2023-01-11" (at 147.574 77.978) (layer "B.SilkS") (tstamp 28a21127-cc27-489d-8a75-e112f998b966)
+  (gr_text "${TITLE}\nRevision ${REVISION}\n${ISSUE_DATE}" (at 147.574 77.978) (layer "B.SilkS") (tstamp 28a21127-cc27-489d-8a75-e112f998b966)
     (effects (font (size 2 2) (thickness 0.3)) (justify mirror))
   )
   (gr_text "CONTROLLER" (at 177.292 77.724) (layer "F.SilkS") (tstamp 0110685e-3b23-409a-8d86-c9c6ebd038c4)
