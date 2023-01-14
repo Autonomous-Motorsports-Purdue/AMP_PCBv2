@@ -13,8 +13,8 @@ This PCB attempts to refine the v1 PCB to strip away extraneous components and a
 | Emergency brake control | Tested working off-PCB | Mechanical brake actuator
 | Steering                | Untested               | -
 | LoRa remote control     | Untested               | -
-| Watchdog timer          | Untested               | -
-| Hardware serial port    | Untested               | -
+| Watchdog timer          | Broken on Rev A        | -
+| Hardware serial port    | Partially tested       | -
 
 ---
 
@@ -40,3 +40,4 @@ This PCB attempts to refine the v1 PCB to strip away extraneous components and a
 ## Miscellaneous notes (to check)
 
 - Create documentation for connectors (especially motor controller connector)
+- Create complete BOM for PCB
