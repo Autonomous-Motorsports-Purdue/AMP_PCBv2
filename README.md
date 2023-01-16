@@ -6,15 +6,15 @@ This PCB attempts to refine the v1 PCB to strip away extraneous components and a
 
 | Name                    | Current Status         | Notes |
 |-------------------------|------------------------|-------|
-| Foot switch             | Completed              | Master enable for motor controller
-| Forward throttle        | Completed              | -
-| Reverse throttle        | Completed              | -
+| Foot switch             | Working                | Master enable for motor controller
+| Forward throttle        | Working                | -
+| Reverse throttle        | Working                | -
 | Motor brake control     | Untested               | Primary braking system if working
-| Emergency brake control | Completed              | Mechanical brake actuator
-| Steering                | Completed              | 0-100% PWM duty cycle control
+| Emergency brake control | Working                | Mechanical brake actuator
+| Steering                | Working                | 0-100% PWM duty cycle control
 | LoRa remote control     | Partially tested       | -
 | Watchdog timer          | Broken on Rev A        | -
-| Hardware serial port    | Completed              | -
+| Hardware serial port    | Working                | -
 
 ---
 
